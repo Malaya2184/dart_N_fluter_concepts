@@ -25,4 +25,11 @@ main(List<String> args) {
   String my_num_string = my_num.toString();
   print(my_num.runtimeType);
   print(my_num_string.runtimeType);
+
+  print(my_name.indexOf("name"));
+  print(my_name.contains("name"));
+
+  // string concad
+  print(my_name + your_name);
+  print("myname + your name ; ${my_name + your_name}");
 }
