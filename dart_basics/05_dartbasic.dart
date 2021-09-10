@@ -50,6 +50,9 @@ main() {
   // add one elemenet to the end of the array
   mynum.add(99);
   print(mynum);
+
+  // contains return bool value
+   print(mynum.contains(99));
   //to add multiple elemeents to the end of the array
   mynum.addAll([100,98,97,96,95]);
   print(mynum);
@@ -135,5 +138,7 @@ main() {
   newNum.forEach((element) {
     print(element*2);
     });
+
+  
 
 }
