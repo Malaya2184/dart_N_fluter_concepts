@@ -2,6 +2,7 @@
 class StaticMem { 
    static var num;  
    static disp() { 
+     // the static constants can acess by using class instance like here StaticMem.num
       print("The value of num is ${StaticMem.num}")  ; 
    } 
 }  
