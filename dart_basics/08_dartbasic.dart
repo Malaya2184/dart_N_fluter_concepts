@@ -16,6 +16,7 @@ void main() {
   // Creating Object called std
   // you can create object by this syntax also
   // var std = Student();
+  //here Student() is the constructor function of the class which must b same as the class name
 
   //note:- here object is new student() but std is the instance of the object not object
   var std = new Student();
